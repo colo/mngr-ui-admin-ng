@@ -1,7 +1,6 @@
 *~
 logs/*
 devel/*
-apps/*
 *.log
 node_modules
 npm-debug.log
