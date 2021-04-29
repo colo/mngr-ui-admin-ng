@@ -1,0 +1,90 @@
+{
+  "roles":[
+	{
+	  "id": "admin",
+	  "name": "Administrator",
+	  "roles": ["user"],
+	  "permissions":["writeFile"]
+	},
+	{
+	  "id": "user",
+	  "name": "User",
+	  "roles": ["anonymous"],
+	  "permissions":["execFile"]
+	},
+	{
+	  "id": "anonymous",
+	  "name": "Anonymous",
+	  "permissions":["readFile"]
+	},
+  ],
+  "resources":[
+	{
+	  "id": "file",
+	  "name": "File",
+	  "path": "....",
+	}
+  ],
+  "subjects":[
+	{
+	  "id": "colo",
+	  "roles":["admin"]
+	},
+	{
+	  "id": "test",
+	  "roles":["user"]
+	},
+	{
+	  "id": "anon",
+	  "roles":["anonymous"]
+	  //"roles":["user", "anonymous"]
+	}
+  ],
+  "operations":[
+	{
+	  "id": "read",
+	  "name": "Read"
+	},
+	{
+	  "id": "exec",
+	  "name": "Exec"
+	},
+	{
+	  "id": "write",
+	  "name": "Write"
+	}
+  ],
+  "permissions":[
+	{
+	  "id": "readFile",
+	  "name": "Read operation for 'file' resource",
+	  "operation": "read",
+	  "resource": "file"
+	},
+	{
+	  "id": "writeFile",
+	  "operation": "write",
+	  "resource": "file"
+	},
+	{
+	  "id": "execFile",
+	  "operation": "exec",
+	  "resource": "file"
+	},
+  ],
+  "constrains":[
+	{
+	  "type": "RC",
+	  "id": "rc",
+	  "name": "Only allow n Subjects in a Role, set by cardinality",
+	  "cardinality": 1,
+	  "roles": ["admin"]
+	},
+	{
+	  "type": "SSD",
+	  "id": "ssd",
+	  "name": "A user is authorized for a role only if that role is not mutually exclusive with any of the other roles for which the user is already authorized.",
+	  "roles": ["anonymous", "user"]
+	}
+  ]
+}

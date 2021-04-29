@@ -1,0 +1,25 @@
+{
+  "name": "js-caching.store.redis",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colo/js-caching.store.redis.git"
+  },
+  "author": "Luciano Bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colo/js-caching.store.redis/issues"
+  },
+  "homepage": "https://github.com/colo/js-caching.store.redis#readme",
+  "dependencies": {
+    "js-pipeline.output.redis": "git+https://github.com/colo/js-pipeline.output.redis.git",
+    "mootools": "^1.5.2",
+    "node-app": "git+https://github.com/colo/node-app.git",
+    "redis": "^2.8.0"
+  }
+}

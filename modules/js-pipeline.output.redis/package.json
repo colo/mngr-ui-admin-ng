@@ -1,0 +1,23 @@
+{
+  "name": "js-pipeline.output.redis",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colo/js-pipeline.output.redis.git"
+  },
+  "author": "Luciano Bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colo/js-pipeline.output.redis/issues"
+  },
+  "homepage": "https://github.com/colo/js-pipeline.output.redis#readme",
+  "dependencies": {
+    "mootools": "^1.5.2",
+    "redis": "^2.8.0"
+  }
+}

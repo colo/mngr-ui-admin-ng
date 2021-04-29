@@ -1,0 +1,53 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/colo/js-pipeline.git",
+      "/home/colo/projects/mngr-ui-admin"
+    ]
+  ],
+  "_from": "git+https://github.com/colo/js-pipeline.git",
+  "_id": "js-pipeline@git+https://github.com/colo/js-pipeline.git#0e9e4260d5f20af4d41bf5b009f03a57e22cfe0f",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/js-pipeline",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/colo/js-pipeline.git",
+    "rawSpec": "git+https://github.com/colo/js-pipeline.git",
+    "saveSpec": "git+https://github.com/colo/js-pipeline.git",
+    "fetchSpec": "https://github.com/colo/js-pipeline.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/colo/js-pipeline.git#0e9e4260d5f20af4d41bf5b009f03a57e22cfe0f",
+  "_spec": "git+https://github.com/colo/js-pipeline.git",
+  "_where": "/home/colo/projects/mngr-ui-admin",
+  "author": {
+    "name": "Luciano Bueno"
+  },
+  "bugs": {
+    "url": "https://github.com/colo/js-pipeline/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "debug": "^3.1.0",
+    "mootools": "^1.5.2"
+  },
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/colo/js-pipeline#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "js-pipeline",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colo/js-pipeline.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}

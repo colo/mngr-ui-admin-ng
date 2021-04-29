@@ -1,0 +1,26 @@
+{
+  "name": "node-express-logger",
+  "version": "0.0.1",
+  "description": "logger module",
+  "author": {
+    "name": "Luciano Bueno",
+    "email": "glamero@gmail.com"
+  },
+  "engines": {
+    "node": ">= 0.4.8"
+  },
+  "dependencies": {
+    "mootools": "^1.5.2",
+    "winston": "^2.4.0",
+    "winston-logstash": "^0.4.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": []
+}

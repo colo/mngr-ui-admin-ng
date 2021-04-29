@@ -1,0 +1,57 @@
+{
+  "_from": "git+https://github.com/colo/node-express-authentication.git",
+  "_id": "node-express-authentication@0.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/node-express-authentication",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "node-express-authentication@git+https://github.com/colo/node-express-authentication.git",
+    "name": "node-express-authentication",
+    "escapedName": "node-express-authentication",
+    "rawSpec": "git+https://github.com/colo/node-express-authentication.git",
+    "saveSpec": "git+https://github.com/colo/node-express-authentication.git",
+    "fetchSpec": "https://github.com/colo/node-express-authentication.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/node-express-app"
+  ],
+  "_resolved": "git+https://github.com/colo/node-express-authentication.git#7744fa7494d4e254e15c400022563530f1a9f2f8",
+  "_spec": "node-express-authentication@git+https://github.com/colo/node-express-authentication.git",
+  "_where": "/home/colo/projects/mngr-ui-admin/node_modules/node-express-app",
+  "author": {
+    "name": "Luciano Bueno",
+    "email": "glamero@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "mootools": "^1.5.2",
+    "node-authentication": "git+https://github.com/colo/node-authentication.git",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "passport-unique-token": "^0.1.4"
+  },
+  "deprecated": false,
+  "description": "Authentication module",
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.4.8"
+  },
+  "keywords": [
+    "login",
+    "authentication"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "name": "node-express-authentication",
+  "optionalDependencies": {},
+  "version": "0.0.1"
+}
